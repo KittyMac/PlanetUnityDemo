@@ -1,0 +1,3 @@
+[submodule "PlanetUnityDemo/Assets/PlanetUnity"]
+	path = PlanetUnityDemo/Assets/PlanetUnity
+	url = https://github.com/SmallPlanetUnity/PlanetUnity
