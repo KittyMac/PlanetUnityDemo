@@ -1,0 +1,6 @@
+Generated/
+/build/
+/server/*/build/
+.DS_Store
+*.xcworkspace
+chimapp/chimapp/
