@@ -1,0 +1,5 @@
+"@LOREMIPSUM" = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+
+"@RUSSIAN" = "Коснитесь корабля, чтобы отобразить его информационную панель.Если есть кнопки с надписью Не заряжены, нажмите их, чтобы зарядить пушки ядрами выбранного типа.Каждый ход можно заряжать пушки только по одному борту корабля.Можно стрелять из пушек в тот же ход, в который они были перезаряжены.";
+
+"@JAPANESE" = "キャノンを装填した船をタップします。キャノンの射程の6角形の位置が赤で表示されます。発射できる敵の船は赤の6角形となります。他の船や島を挟んで発射することはできません";
