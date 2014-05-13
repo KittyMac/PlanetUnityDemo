@@ -1,0 +1,10 @@
+/Volumes/Development/smallplanet/PlanetUnityDemo/PlanetUnityDemo/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Volumes/Development/smallplanet/PlanetUnityDemo/PlanetUnityDemo/Temp/bin/Debug/Assembly-CSharp.dll
+/Volumes/Development/smallplanet/PlanetUnityDemo/PlanetUnityDemo/obj/Debug/Assembly-CSharp.dll
+/Volumes/Development/smallplanet/PlanetUnityDemo/PlanetUnityDemo/obj/Debug/Assembly-CSharp.dll.mdb
+/Volumes/Development/smallplanet/PlanetUnityDemo/PlanetUnityDemo/Temp/bin/Debug/UnityEngine.dll
+/Volumes/Development/smallplanet/PlanetUnityDemo/PlanetUnityDemo/Temp/bin/Debug/UnityEditor.dll
+/Volumes/Development/smallplanet/PlanetUnityDemo/PlanetUnityDemo/Temp/bin/Debug/Mono.Cecil.dll
+/Volumes/Development/smallplanet/PlanetUnityDemo/PlanetUnityDemo/Temp/bin/Debug/nunit.framework.dll
+/Volumes/Development/smallplanet/PlanetUnityDemo/PlanetUnityDemo/Temp/bin/Debug/Unity.DataContract.dll
+/Volumes/Development/smallplanet/PlanetUnityDemo/PlanetUnityDemo/Temp/bin/Debug/ICSharpCode.NRefactory.dll

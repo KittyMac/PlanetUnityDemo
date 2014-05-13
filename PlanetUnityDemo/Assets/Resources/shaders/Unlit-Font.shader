@@ -1,4 +1,4 @@
-Shader "Custom/Unlit/Transparent"
+Shader "Custom/Unlit/Font"
 {
 	Properties
 	{
@@ -52,7 +52,8 @@ Shader "Custom/Unlit/Transparent"
 		half4 frag(v2f i) : COLOR
 		{
 			fixed4 col = i.color;
-			return i.color*tex2D(_MainTex, i.texcoord);
+			col.a = tex2D(_MainTex, i.texcoord).a;
+			return col;
 		}
 		ENDCG
 		}
