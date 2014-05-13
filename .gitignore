@@ -1,6 +1,11 @@
-Generated/
-/build/
-/server/*/build/
+# Unity3D .gitignore file.
+# Store this file at the root of your local repository.
 .DS_Store
-*.xcworkspace
-chimapp/chimapp/
+/obj
+Library
+Temp
+*.csproj
+*.pidb
+*.unityproj
+*.sln
+*.userprefs
