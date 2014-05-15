@@ -8,7 +8,7 @@
 	<Color color="#00FF00FF" bounds="300,300,300,300" />
 	<Label value="@RUSSIAN" fontSize="36" alignment="center" bounds="300,300,300,300" />
 	
-	<Color color="#00FFFFFF" bounds="600,200,400,200" />
+    <Color color="#00FFFFFF" bounds="600,200,400,200" />
 	<Label value="@JAPANESE" fontSize="64" alignment="right" bounds="600,200,400,200" />
 
 </Scene>

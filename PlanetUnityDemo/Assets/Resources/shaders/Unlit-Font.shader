@@ -14,7 +14,7 @@ Shader "Custom/Unlit/Font"
 			"PreviewType"="Plane"
 		}
 		Cull Off
-    	ZTest Off
+		ZTest Greater
 		ZWrite Off
     	Blend SrcAlpha OneMinusSrcAlpha
 		Fog { Mode Off }
@@ -23,7 +23,7 @@ Shader "Custom/Unlit/Font"
 		CGPROGRAM
 		#pragma vertex vert
 		#pragma fragment frag
-		
+
 		struct appdata
 		{
 			float4 vertex : POSITION;
@@ -36,11 +36,11 @@ Shader "Custom/Unlit/Font"
 			fixed4 color : COLOR;
 			float2 texcoord : TEXCOORD0;
 		};
-		
+
 		sampler2D _MainTex;
 		uniform float4 _MainTex_ST;
 		uniform fixed4 _Color;
-		
+
 		v2f vert (appdata v)
 		{
 			v2f o;
@@ -52,7 +52,7 @@ Shader "Custom/Unlit/Font"
 		half4 frag(v2f i) : COLOR
 		{
 			fixed4 col = i.color;
-			col.a = tex2D(_MainTex, i.texcoord).a;
+			col.a *= tex2D(_MainTex, i.texcoord).a;
 			return col;
 		}
 		ENDCG

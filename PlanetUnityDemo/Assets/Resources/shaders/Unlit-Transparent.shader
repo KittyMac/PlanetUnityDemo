@@ -14,7 +14,6 @@ Shader "Custom/Unlit/Transparent"
 			"PreviewType"="Plane"
 		}
 		Cull Off
-    	ZTest Off
 		ZWrite Off
     	Blend SrcAlpha OneMinusSrcAlpha
 		Fog { Mode Off }

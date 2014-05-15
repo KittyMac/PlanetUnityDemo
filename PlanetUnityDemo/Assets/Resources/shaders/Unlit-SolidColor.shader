@@ -8,9 +8,8 @@ Shader "Custom/Unlit/SolidColor"
 	{
 		Tags { "Queue"="Transparent" "IgnoreProjector"="True" }
 		Cull Off
-    ZTest Off
 		ZWrite Off
-    Blend SrcAlpha OneMinusSrcAlpha
+    	Blend SrcAlpha OneMinusSrcAlpha
 		Fog { Mode Off }
 	Pass
 	{
