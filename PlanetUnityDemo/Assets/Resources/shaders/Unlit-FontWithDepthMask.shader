@@ -1,4 +1,4 @@
-Shader "Custom/Unlit/Font"
+Shader "Custom/Unlit/FontWithDepthMask"
 {
 	Properties
 	{
@@ -14,7 +14,7 @@ Shader "Custom/Unlit/Font"
 			"PreviewType"="Plane"
 		}
 		Cull Off
-		ZTest Off
+		ZTest Greater
 		ZWrite Off
     	Blend SrcAlpha OneMinusSrcAlpha
 		Fog { Mode Off }
