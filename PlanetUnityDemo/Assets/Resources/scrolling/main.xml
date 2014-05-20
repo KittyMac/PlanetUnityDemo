@@ -2,6 +2,21 @@
 
 <Scene title="scene" adjustCamera="true" bounds="0,0,1024,768" xmlns="http://schema.smallplanet.com/PlanetUnity">
 	
-	<Color color="#FF0000FF" bounds="0,0,1024,768" />
+	<!-- Background -->
+	<Color color="#000000FF" bounds="0,0,1024,768" />
+	
+	<!-- Scroll background -->
+	<Color color="#FFFFFFFF" bounds="50,50,400,668" />
+	
+	<Scroll bounds="50,50,400,668" contentSize="400,1200">
+		<Color color="#FF0000FF" bounds="0,0,400,200" />
+		<Color color="#00FF00FF" bounds="0,200,400,200" />
+		<Color color="#0000FFFF" bounds="0,400,400,200" />
+		<Color color="#FF0000FF" bounds="0,600,400,200" />
+		<Color color="#00FF00FF" bounds="0,800,400,200" />
+		<Color color="#0000FFFF" bounds="0,1000,400,200" />
+	</Scroll>
+	
+	
 
 </Scene>
