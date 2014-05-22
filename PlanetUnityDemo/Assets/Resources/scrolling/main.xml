@@ -7,14 +7,25 @@
 	
 	<!-- Scroll background -->
 	<Color color="#FFFFFFFF" bounds="50,50,400,668" />
+    
+    <Color color="#FFFFFFFF" bounds="550,50,20,668" />
 	
-	<Scroll bounds="50,50,400,668" contentSize="400,1200">
-		<Color color="#FF0000FF" bounds="0,0,400,200" />
-		<Color color="#00FF00FF" bounds="0,200,400,200" />
-		<Color color="#0000FFFF" bounds="0,400,400,200" />
-		<Color color="#FF0000FF" bounds="0,600,400,200" />
-		<Color color="#00FF00FF" bounds="0,800,400,200" />
-		<Color color="#0000FFFF" bounds="0,1000,400,200" />
+	<Scroll bounds="50,50,400,668" pagingEnabled="true" >
+		<Color color="#FF0000FF" bounds="0,0,400,668" />
+		<Color color="#00FF00FF" bounds="400,0,400,668" />
+		<Color color="#0000FFFF" bounds="800,0,400,668" />
+		<Color color="#FF0000FF" bounds="1200,0,400,668" />
+		<Color color="#00FF00FF" bounds="1600,0,400,668" />
+		<Color color="#0000FFFF" bounds="2000,0,400,668" />
+	</Scroll>
+    
+    <Scroll bounds="650,50,400,668" pagingEnabled="true" >
+		<Color color="#FF0000FF" bounds="@eval(0,668*0,400,668)" />
+		<Color color="#00FF00FF" bounds="@eval(0,668*1,400,668)" />
+		<Color color="#0000FFFF" bounds="@eval(0,668*2,400,668)" />
+		<Color color="#FF0000FF" bounds="@eval(0,668*3,400,668)" />
+		<Color color="#00FF00FF" bounds="@eval(0,668*4,400,668)" />
+		<Color color="#0000FFFF" bounds="@eval(0,668*5,400,668)" />
 	</Scroll>
 	
 	
