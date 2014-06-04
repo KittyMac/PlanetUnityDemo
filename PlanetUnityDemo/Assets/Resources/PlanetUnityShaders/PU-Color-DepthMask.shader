@@ -1,4 +1,4 @@
-Shader "PlanetUnity/Color/Stencil"
+Shader "PlanetUnity/Color/DepthMask"
 {
 	Properties
 	{
@@ -6,8 +6,14 @@ Shader "PlanetUnity/Color/Stencil"
 	}
 	SubShader
 	{
-		Tags { "Queue"="Transparent" "IgnoreProjector"="True" }
+		Tags {
+			"Queue"="Transparent"
+			"IgnoreProjector"="True"
+			"RenderType"="Transparent"
+			"PreviewType"="Plane"
+		}
 		Cull Off
+		ZTest Greater
 		ZWrite Off
     	Blend SrcAlpha OneMinusSrcAlpha
 		Fog { Mode Off }

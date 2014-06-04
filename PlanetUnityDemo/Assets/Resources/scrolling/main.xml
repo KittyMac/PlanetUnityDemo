@@ -10,7 +10,7 @@
     
     <Color color="#FFFFFFFF" bounds="550,50,20,668" />
 	
-	<Scroll bounds="50,50,400,668" pagingEnabled="true" >
+	<Scroll bounds="50,50,400,668" pagingEnabled="true" clipDepth="true" >
 		<Color color="#FF0000FF" bounds="0,0,400,668" />
 		<Color color="#00FF00FF" bounds="400,0,400,668" />
 		<Color color="#0000FFFF" bounds="800,0,400,668" />
@@ -19,7 +19,7 @@
 		<Color color="#0000FFFF" bounds="2000,0,400,668" />
 	</Scroll>
     
-    <Scroll bounds="650,50,400,668" pagingEnabled="true" >
+    <Scroll bounds="650,50,400,668" pagingEnabled="true" clipDepth="true" >
 		<Color color="#FF0000FF" bounds="@eval(0,668*0,400,668)" />
 		<Color color="#00FF00FF" bounds="@eval(0,668*1,400,668)" />
 		<Color color="#0000FFFF" bounds="@eval(0,668*2,400,668)" />
