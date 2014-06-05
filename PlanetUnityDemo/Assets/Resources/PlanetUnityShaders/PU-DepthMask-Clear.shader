@@ -5,7 +5,7 @@ Shader "PlanetUnity/DepthMask/Clear" {
         ZTest Always
         ZWrite On
         ColorMask 0
-		Offset 0, 1
+		Offset 0, 100
         Pass {}
     }
 }
