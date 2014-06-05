@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Scene xmlns="http://schema.smallplanet.com/PlanetUnity" title="scene" adjustCamera="true" bounds="0,0,1024,768">
+	<Color color="#000000FF" bounds="0,0,1024,768"/>
+	<Image resourcePath="images/helloworld" bounds="@eval((w-600)/2,(h-300)/2,600,300)"/>
+</Scene>
