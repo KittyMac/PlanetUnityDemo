@@ -25,7 +25,10 @@ public class PlanetUnityDynamicExample : MonoBehaviour {
 				}
 
 				PUColor depthMask2 = new PUColor (null, color, new cVector2 (0, 0), new cRect (-50+(i*100), -50+(j*100), 100, 100));
-				depthMask2.SetTitle ("Red Color");
+				if(color == blue)
+					depthMask2.SetTitle ("Blue Color");
+				else
+					depthMask2.SetTitle ("Red Color");
 				depthMask2.loadIntoGameObject (gameObject);
 			}
 		}
