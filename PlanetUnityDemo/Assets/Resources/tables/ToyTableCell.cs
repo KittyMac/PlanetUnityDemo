@@ -14,7 +14,7 @@ public class ToyTableCell : PUTableCell {
 		return "tables/toy";
 	}
 
-	public override void LoadIntoPUGameObject(PUGameObject parent, object data, int baseRenderQueue)
+	public override void LoadIntoPUGameObject(PUTable parent, object data, int baseRenderQueue)
 	{
 		Toy info = data as Toy;
 

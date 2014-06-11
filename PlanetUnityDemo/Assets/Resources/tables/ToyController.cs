@@ -3,6 +3,14 @@ using UnityEngine;
 using System.Collections.Generic;
 using System;
 
+public class ToyHeader {
+	public string name;
+
+	public ToyHeader(string _name) {
+		name = _name;
+	}
+}
+
 public class Toy {
 	public string name;
 	public string image;
@@ -29,30 +37,40 @@ public class ToyController : MonoBehaviour, IPUCode{
 	void Start () {
 		List<object> myToys = new List<object> ();
 
+		myToys.Add (new ToyHeader ("Mechanical Toys"));
 		myToys.Add (new Toy ("Robot", "tables/robot", randomLoremIpsum()));
-		myToys.Add (new Toy ("Doll", "tables/doll", randomLoremIpsum()));
-		myToys.Add (new Toy ("Airplane", "tables/airplane", randomLoremIpsum()));
 		myToys.Add (new Toy ("Robot", "tables/robot", randomLoremIpsum()));
-		myToys.Add (new Toy ("Doll", "tables/doll", randomLoremIpsum()));
-		myToys.Add (new Toy ("Airplane", "tables/airplane", randomLoremIpsum()));
 		myToys.Add (new Toy ("Robot", "tables/robot", randomLoremIpsum()));
-		myToys.Add (new Toy ("Doll", "tables/doll", randomLoremIpsum()));
-		myToys.Add (new Toy ("Airplane", "tables/airplane", randomLoremIpsum()));
 		myToys.Add (new Toy ("Robot", "tables/robot", randomLoremIpsum()));
-		myToys.Add (new Toy ("Doll", "tables/doll", randomLoremIpsum()));
-		myToys.Add (new Toy ("Airplane", "tables/airplane", randomLoremIpsum()));
 		myToys.Add (new Toy ("Robot", "tables/robot", randomLoremIpsum()));
-		myToys.Add (new Toy ("Doll", "tables/doll", randomLoremIpsum()));
-		myToys.Add (new Toy ("Airplane", "tables/airplane", randomLoremIpsum()));
 		myToys.Add (new Toy ("Robot", "tables/robot", randomLoremIpsum()));
-		myToys.Add (new Toy ("Doll", "tables/doll", randomLoremIpsum()));
-		myToys.Add (new Toy ("Airplane", "tables/airplane", randomLoremIpsum()));
 		myToys.Add (new Toy ("Robot", "tables/robot", randomLoremIpsum()));
-		myToys.Add (new Toy ("Doll", "tables/doll", randomLoremIpsum()));
-		myToys.Add (new Toy ("Airplane", "tables/airplane", randomLoremIpsum()));
 		myToys.Add (new Toy ("Robot", "tables/robot", randomLoremIpsum()));
+		myToys.Add (new Toy ("Robot", "tables/robot", randomLoremIpsum()));
+
+		myToys.Add (new ToyHeader ("Stuffed Toys"));
 		myToys.Add (new Toy ("Doll", "tables/doll", randomLoremIpsum()));
+		myToys.Add (new Toy ("Doll", "tables/doll", randomLoremIpsum()));
+		myToys.Add (new Toy ("Doll", "tables/doll", randomLoremIpsum()));
+		myToys.Add (new Toy ("Doll", "tables/doll", randomLoremIpsum()));
+		myToys.Add (new Toy ("Doll", "tables/doll", randomLoremIpsum()));
+		myToys.Add (new Toy ("Doll", "tables/doll", randomLoremIpsum()));
+		myToys.Add (new Toy ("Doll", "tables/doll", randomLoremIpsum()));
+		myToys.Add (new Toy ("Doll", "tables/doll", randomLoremIpsum()));
+
+		myToys.Add (new ToyHeader ("Flying Toys"));
 		myToys.Add (new Toy ("Airplane", "tables/airplane", randomLoremIpsum()));
+		myToys.Add (new Toy ("Airplane", "tables/airplane", randomLoremIpsum()));
+		myToys.Add (new Toy ("Airplane", "tables/airplane", randomLoremIpsum()));
+		myToys.Add (new Toy ("Airplane", "tables/airplane", randomLoremIpsum()));
+		myToys.Add (new Toy ("Airplane", "tables/airplane", randomLoremIpsum()));
+		myToys.Add (new Toy ("Airplane", "tables/airplane", randomLoremIpsum()));
+		myToys.Add (new Toy ("Airplane", "tables/airplane", randomLoremIpsum()));
+		myToys.Add (new Toy ("Airplane", "tables/airplane", randomLoremIpsum()));
+		myToys.Add (new Toy ("Airplane", "tables/airplane", randomLoremIpsum()));
+		myToys.Add (new Toy ("Airplane", "tables/airplane", randomLoremIpsum()));
+		myToys.Add (new Toy ("Airplane", "tables/airplane", randomLoremIpsum()));
+
 
 		ToyTable.SetObjectList (myToys);
 		ToyTable.ReloadTable ();
