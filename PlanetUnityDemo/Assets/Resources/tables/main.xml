@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Scene title="scene" adjustCamera="true" bounds="0,0,1024,768" xmlns="http://schema.smallplanet.com/PlanetUnity">
+	<Table title="ToyTable" bounds="50,50,400,668" clipDepth="true" />	
+	<Code class="ToyController" />
+</Scene>

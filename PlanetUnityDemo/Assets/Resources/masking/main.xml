@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <Scene title="scene" adjustCamera="true" bounds="0,0,1024,768" xmlns="http://schema.smallplanet.com/PlanetUnity">
-	
-	<!-- Background -->
 	<Color color="#000000FF" bounds="0,0,1024,768" />
-	
-	<!-- Scroll background -->
 	<Color color="#FF0000FF" bounds="50,50,100,100" clipDepth="true">
 		<Color color="#0000FFFF" bounds="0,0,200,200" />
-	</Color>
-    
+	</Color>    
 </Scene>

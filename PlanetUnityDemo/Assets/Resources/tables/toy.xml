@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameObject bounds="0,0,400,40" xmlns="http://schema.smallplanet.com/PlanetUnity">
+	<Color color="#FF0000FF" bounds="0,0,400,40"/>
+	<Color color="#FFFF00FF" bounds="5,5,390,30"/>
+	<Label value="Hello world!" fontSize="36" alignment="center" bounds="0,0,400,40" />
+</GameObject>
