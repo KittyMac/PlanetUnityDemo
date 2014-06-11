@@ -3,5 +3,5 @@
 	<Image title="ToyIcon" bounds="@eval(0,0,h,h)" />
 	<Label title="ToyName" value="" fontSize="32" alignment="left" bounds="@eval(h+5,0,w-(h+5),32)" />
 	<Label title="ToyDesc" value="" fontSize="18" alignment="left" bounds="@eval(h+5,36,w-(h+5),h-36)" />
-	<Color color="#AAAAAAFF" bounds="@eval(0,h-1,w,1)"/>
+	<Color title="Line" color="#AAAAAAFF" bounds="@eval(0,h-2,w,1)"/>
 </GameObject>
