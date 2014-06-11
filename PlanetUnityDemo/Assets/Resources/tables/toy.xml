@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GameObject bounds="0,0,400,40" xmlns="http://schema.smallplanet.com/PlanetUnity">
-	<Color color="#FF0000FF" bounds="0,0,400,40"/>
-	<Color color="#FFFF00FF" bounds="5,5,390,30"/>
-	<Label value="Hello world!" fontSize="36" alignment="center" bounds="0,0,400,40" />
+<GameObject bounds="0,0,400,60" xmlns="http://schema.smallplanet.com/PlanetUnity">
+	<Image title="ToyIcon" bounds="@eval(0,0,h,h)" />
+	<Label title="ToyName" value="" fontSize="32" alignment="left" bounds="@eval(h+5,0,w-(h+5),32)" />
+	<Label title="ToyDesc" value="" fontSize="18" alignment="left" bounds="@eval(h+5,36,w-(h+5),h-36)" />
+	<Color color="#AAAAAAFF" bounds="@eval(0,h-1,w,1)"/>
 </GameObject>

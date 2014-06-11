@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System;
 
 public class Toy {
-	string name;
-	string image;
-	string description;
+	public string name;
+	public string image;
+	public string description;
 
 	public Toy(string _name, string _image, string _description) {
 		name = _name;
