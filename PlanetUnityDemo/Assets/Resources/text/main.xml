@@ -11,4 +11,6 @@
     <Color color="#00FFFFFF" bounds="600,200,400,200" />
 	<Label value="@JAPANESE" fontSize="64" alignment="right" bounds="600,200,400,200" clipDepth="true" />
 
+	<Label value="Hello World" fontSize="24" alignment="center" bounds="@eval(0,bottom-30,1024,30)" textColor="#FFFFFFFF" shadowColor="#000000FF" shadowOffset="-1,-1" />
+
 </Scene>
