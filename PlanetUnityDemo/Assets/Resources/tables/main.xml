@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<Scene title="scene" adjustCamera="true" bounds="0,0,1024,768" xmlns="http://schema.smallplanet.com/PlanetUnity">
-	<Color color="#FFFFFFFF" bounds="@eval(0,top,1024,bottom)" />
-	<Color color="#AAAAAAFF" bounds="@eval(400,top,2,bottom)" />
+<Scene title="scene" adjustCamera="true" bounds="@eval(0,0,w,h)" xmlns="http://schema.smallplanet.com/PlanetUnity">
+	<Color color="#FFFFFFFF" bounds="@eval(0,top,w,scaledH)" />
 
-	<Table title="ToyTable" bounds="@eval(0,top,400,bottom)" clipDepth="true" />	
+	<Table title="ToyTable" bounds="@eval(0,top,w,scaledH)" clipDepth="true" />	
 
 	<Code class="ToyController" />
 </Scene>

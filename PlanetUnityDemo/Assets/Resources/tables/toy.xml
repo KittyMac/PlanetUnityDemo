@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GameObject bounds="0,0,400,60" xmlns="http://schema.smallplanet.com/PlanetUnity">
+<GameObject bounds="@eval(0,0,w,60)" xmlns="http://schema.smallplanet.com/PlanetUnity">
 	<Image title="ToyIcon" bounds="@eval(0,0,h,h)" />
 	<Label title="ToyName" value="" fontSize="32" alignment="left" bounds="@eval(h+5,0,w-(h+5),32)" />
 	<Label title="ToyDesc" value="" fontSize="18" alignment="left" bounds="@eval(h+5,36,w-(h+5),h-36)" />

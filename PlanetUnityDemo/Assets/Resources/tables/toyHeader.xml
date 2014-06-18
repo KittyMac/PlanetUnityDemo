@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GameObject bounds="0,0,400,30" xmlns="http://schema.smallplanet.com/PlanetUnity">
-	<Color color="#BBBBBBFF" bounds="0,-1,400,31" />
+<GameObject bounds="@eval(0,0,w,30)" xmlns="http://schema.smallplanet.com/PlanetUnity">
+	<Color color="#BBBBBBFF" bounds="@eval(0,-1,w,31)" />
 	<Label title="ToyName" value="" fontSize="22" alignment="center" bounds="@eval(0,(h-22)/2,w,22)" />
 </GameObject>
