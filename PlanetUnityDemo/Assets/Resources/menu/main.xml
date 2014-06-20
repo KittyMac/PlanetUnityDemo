@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Scene title="scene" adjustCamera="true" bounds="@eval(0,0,w,h)" xmlns="http://schema.smallplanet.com/PlanetUnity">
+	<Color color="#FFFFFFFF" bounds="@eval(0,top,w,scaledH)" />
+
+	<Table title="DemoTable" bounds="@eval(0,top,w,scaledH)" clipDepth="true" />	
+
+	<Code class="DemoController">
+		<Notification name="GoToDemo" />
+	</Code>
+</Scene>
