@@ -32,14 +32,13 @@ public class PlanetUnityDynamicExample : MonoBehaviour {
 				depthMask2.loadIntoGameObject (gameObject);
 			}
 		}
-
-
-
-
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
+		if (Input.GetMouseButtonDown (0)) {
+			Application.LoadLevel ("menu");
+		}
+
 	}
 }
