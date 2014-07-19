@@ -37,13 +37,19 @@ public class DemoController : MonoBehaviour, IPUCode{
 		myDemos.Add (new Demo ("Scrolling", "scrolling"));
 		myDemos.Add (new Demo ("Table", "tables"));
 
-		DemoTable.SetObjectList (myDemos);
-		DemoTable.ReloadTable ();
+		if (DemoTable != null) {
+			DemoTable.SetObjectList (myDemos);
+			DemoTable.ReloadTable ();
+		}
 	}
 
 	public void GoToDemo(Hashtable args) {
 		PUGameObject sender = (PUGameObject)args ["sender"];
 		string levelToLoad = sender.tag;
 		Application.LoadLevel (levelToLoad);
+	}
+
+	public void GoToMenu() {
+		Application.LoadLevel ("menu");
 	}
 }
