@@ -13,4 +13,10 @@
 
 	<Label value="Hello World" fontSize="24" alignment="center" bounds="@eval(0,bottom-30,1024,30)" textColor="#FFFFFFFF" shadowColor="#000000FF" shadowOffset="-1,-1" />
 
+
+	<ColorButton color="#00000000" bounds="0,0,1024,768" onTouchUp="GoToMenu" />
+	<Code class="DemoController">
+		<Notification name="GoToMenu" />
+	</Code>
+
 </Scene>

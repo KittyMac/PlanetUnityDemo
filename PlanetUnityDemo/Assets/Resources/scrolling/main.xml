@@ -29,5 +29,9 @@
 	</Scroll>
 	
 	
+	<ColorButton color="#FF0000FF" bounds="@eval(w/2-20,top,40,40)" onTouchUp="GoToMenu" />
+	<Code class="DemoController">
+		<Notification name="GoToMenu" />
+	</Code>
 
 </Scene>

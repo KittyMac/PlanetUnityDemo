@@ -3,7 +3,12 @@
 <Scene title="scene" adjustCamera="true" bounds="@eval(0,0,w,h)" xmlns="http://schema.smallplanet.com/PlanetUnity">
 	<Color color="#FFFFFFFF" bounds="@eval(0,top,w,scaledH)" />
 
-	<Table title="ToyTable" bounds="@eval(0,top,w,scaledH)" clipDepth="true" />	
+	<Table title="ToyTable" bounds="@eval(0,top,w,scaledH)" clipDepth="false" />	
 
 	<Code class="ToyController" />
+	
+	<ColorButton color="#FF0000FF" bounds="@eval(right-40,top,40,40)" onTouchUp="GoToMenu" renderQueueOffset="10000"/>
+	<Code class="DemoController">
+		<Notification name="GoToMenu" />
+	</Code>
 </Scene>
