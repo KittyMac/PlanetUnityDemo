@@ -2,6 +2,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System;
+using System.Collections;
 
 public class DemoHeader {
 	public string name;
@@ -29,18 +30,20 @@ public class DemoController : MonoBehaviour, IPUCode{
 		List<object> myDemos = new List<object> ();
 
 		myDemos.Add (new DemoHeader ("Planet Unity Demo"));
-		myDemos.Add (new Demo ("Image", "image/main"));
-		myDemos.Add (new Demo ("Text", "text/main"));
-		myDemos.Add (new Demo ("Dynamic", "dynamic/main"));
-		myDemos.Add (new Demo ("Masking", "masking/main"));
-		myDemos.Add (new Demo ("Scrolling", "scrolling/main"));
-		myDemos.Add (new Demo ("Table", "tables/main"));
+		myDemos.Add (new Demo ("Image", "images"));
+		myDemos.Add (new Demo ("Text", "text"));
+		myDemos.Add (new Demo ("Dynamic", "dynamic"));
+		myDemos.Add (new Demo ("Masking", "masking"));
+		myDemos.Add (new Demo ("Scrolling", "scrolling"));
+		myDemos.Add (new Demo ("Table", "tables"));
 
 		DemoTable.SetObjectList (myDemos);
 		DemoTable.ReloadTable ();
 	}
 
-	public void GoToDemo() {
-		Debug.Log ("DemoController: GoToDemo");
+	public void GoToDemo(Hashtable args) {
+		PUGameObject sender = (PUGameObject)args ["sender"];
+		string levelToLoad = sender.tag;
+		Application.LoadLevel (levelToLoad);
 	}
 }
