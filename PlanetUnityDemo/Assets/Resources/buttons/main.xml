@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Scene title="scene" adjustCamera="true" bounds="0,0,1024,768" xmlns="http://schema.smallplanet.com/PlanetUnity">
+	
+	
+	<ColorButton bounds="410,124,220,64" color="#FF0000FF" touchColor="#0000FFFF" onTouchUp="" />
+	
+	<ImageButton bounds="410,232,226,71" normalResourcePath="buttons/button_off" highlightedResourcePath="buttons/button_on" />
+	
+	<ImageButton bounds="410,332,226,71" normalResourcePath="buttons/button" touchColor="#6dcff6FF" />
+	
+	<LabelButton bounds="410,432,226,71" color="#000000FF" touchColor="#FF0000FF" value="Hello World" fontSize="42" />
+	
+	
+	
+	<LabelButton bounds="@eval(310,bottom-71,426,71)" color="#000000FF" touchColor="#FF0000FF" value="Go To Menu" fontSize="28" onTouchUp="GoToMenu" />
+	
+	<Code class="DemoController">
+		<Notification name="GoToMenu" />
+	</Code>
+
+</Scene>

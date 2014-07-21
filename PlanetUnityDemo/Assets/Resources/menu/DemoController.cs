@@ -32,6 +32,7 @@ public class DemoController : MonoBehaviour, IPUCode{
 		myDemos.Add (new DemoHeader ("Planet Unity Demo"));
 		myDemos.Add (new Demo ("Image", "images"));
 		myDemos.Add (new Demo ("Text", "text"));
+		myDemos.Add (new Demo ("Buttons", "buttons"));
 		myDemos.Add (new Demo ("Dynamic", "dynamic"));
 		myDemos.Add (new Demo ("Masking", "masking"));
 		myDemos.Add (new Demo ("Scrolling", "scrolling"));

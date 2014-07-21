@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Scene adjustCamera="false" bounds="@eval(0,0,w,80)" xmlns="http://schema.smallplanet.com/PlanetUnity">
+<GameObject bounds="@eval(0,0,w,80)" xmlns="http://schema.smallplanet.com/PlanetUnity">
 	<LabelButton title="Name" onTouchUp="GoToDemo" value="" fontSize="44" alignment="left" bounds="@eval(20,(h-60)/2,w-20,60)" />
 	<Color title="Line" color="#AAAAAAFF" bounds="@eval(0,h-2,w,1)"/>
-</Scene>
+</GameObject>
